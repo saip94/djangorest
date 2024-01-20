@@ -3,9 +3,7 @@ from django.http import HttpResponse
 
 
 def home(request):
-    # return HttpResponse("This is first project")
-    return render(request,'base.html',{'name':'Sai'})
+    return HttpResponse("This is first project")
 
 def demo(request):
-    # return HttpResponse("This is another response demo")
-    return render(request,'demo.html',{'name':'Sai'})
+    return HttpResponse("This is another response demo")
